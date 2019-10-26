@@ -2,6 +2,12 @@
 
 *适用于python2,python3*
 
+如果使用python2
+>pip install torch==1.3.0+cpu torchvision==0.4.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+如果使用python3
+>pip3 install torch==1.3.0+cpu torchvision==0.4.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
 >mkdir  ~/detect_obj
 
 >cd ~/detect_obj
